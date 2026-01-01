@@ -1,12 +1,13 @@
 {
-  "name": "Medicine Management",
-  "short_name": "MedMgr",
-  "description": "Manage your medicine inventory with expiry tracking",
+  "name": "Veterinary Medicine Management",
+  "short_name": "VetMedMgr",
+  "description": "Manage your veterinary medicine inventory with expiry tracking - Works offline",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#0ea5e9",
+  "theme_color": "#22c55e",
   "orientation": "portrait",
+  "scope": "/",
   "icons": [
     {
       "src": "/icon-192.png",

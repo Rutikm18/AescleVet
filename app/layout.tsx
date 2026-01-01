@@ -15,6 +15,7 @@ export const metadata: Metadata = {
 }
 
 import { ErrorBoundary } from '@/components/ErrorBoundary'
+import ServiceWorkerRegistration from '@/components/ServiceWorkerRegistration'
 
 export default function RootLayout({
   children,
@@ -30,6 +31,7 @@ export default function RootLayout({
       </head>
       <body>
         <ErrorBoundary>
+          <ServiceWorkerRegistration />
           {children}
         </ErrorBoundary>
       </body>

@@ -60,12 +60,27 @@ npm run build
 npm start
 ```
 
-## iOS Installation
+## iOS Installation & Offline Usage
 
-1. Open the app in Safari on your iOS device
-2. Tap the Share button
-3. Select "Add to Home Screen"
-4. The app will be installed as a standalone app
+### Quick Setup (3 Steps)
+
+1. **Open Safari** on your iPhone/iPad (not Chrome)
+2. Navigate to your app URL
+3. Tap **Share** → **"Add to Home Screen"** → **"Add"**
+
+### Offline Functionality
+
+✅ **Works Completely Offline After First Visit**
+- All data stored locally on your device
+- No internet required after initial installation
+- Service worker caches app files automatically
+- Perfect for use in areas with poor connectivity
+
+**Important**: Visit the app **with internet connection** the first time to cache all files. After that, it works offline forever!
+
+📖 **Detailed Guide**: See [IOS_OFFLINE_GUIDE.md](./IOS_OFFLINE_GUIDE.md) for complete instructions, troubleshooting, and FAQs.
+
+📱 **Quick Start**: See [QUICK_START_IOS.md](./QUICK_START_IOS.md) for a 3-step guide.
 
 ## Deployment
 
