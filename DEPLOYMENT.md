@@ -38,6 +38,10 @@ Visit `http://localhost:3000` to test the application.
 
 Vercel is the recommended platform for Next.js applications.
 
+**📖 Complete Guide**: See [VERCEL_DEPLOYMENT.md](./VERCEL_DEPLOYMENT.md) for detailed instructions.
+
+**Quick Steps:**
+
 1. **Push to GitHub**
    ```bash
    git init
@@ -52,11 +56,19 @@ Vercel is the recommended platform for Next.js applications.
    - Sign up/Login with GitHub
    - Click "New Project"
    - Import your repository
-   - Vercel will auto-detect Next.js settings
+   - Vercel will auto-detect Next.js settings (configured in `vercel.json`)
    - Click "Deploy"
    - Your app will be live in minutes!
 
-3. **Custom Domain (Optional)**
+3. **Configuration**
+   - `vercel.json` is already configured with:
+     - Service worker headers
+     - PWA support
+     - Security headers
+     - Image optimization
+     - Proper caching
+
+4. **Custom Domain (Optional)**
    - In Vercel dashboard, go to Settings → Domains
    - Add your custom domain
 

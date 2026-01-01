@@ -86,9 +86,20 @@ npm start
 
 ### Vercel (Recommended)
 
+**📖 Complete Guide**: See [VERCEL_DEPLOYMENT.md](./VERCEL_DEPLOYMENT.md)
+
+**Quick Deploy:**
 1. Push your code to GitHub
 2. Import your repository on [Vercel](https://vercel.com)
-3. Deploy automatically
+3. Vercel auto-detects Next.js (configured in `vercel.json`)
+4. Deploy automatically - live in ~2 minutes!
+
+**Configuration:**
+- ✅ `vercel.json` already configured
+- ✅ Service worker headers set
+- ✅ PWA support enabled
+- ✅ Security headers configured
+- ✅ Image optimization enabled
 
 ### Other Platforms
 
